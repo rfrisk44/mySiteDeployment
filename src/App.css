@@ -201,7 +201,7 @@ body{
 
   @media (max-width: 500px){
     .menu{
-        transform: none; /* Start the menu off-screen */
+        transform: translate(-100%, -100%); /* Start the menu off-screen */
         transform-origin: none;
         transition: none;
     }
