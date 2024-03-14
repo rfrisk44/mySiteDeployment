@@ -7,7 +7,7 @@ body{
 /* Landing CSS */
 #landing {
     position: relative; /* Ensure that the overlay is positioned relative to the container */
-    background-image: url('./components/images/thisisengineering-raeng-sbFmoKBK7jU-unsplash.webp');
+    background-image: url('./components/images/compressedthisisengineering-raeng-sbFmoKBK7jU-unsplash.webp');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -200,20 +200,25 @@ body{
   }
 
   @media (max-width: 500px){
+    .menu{
+        transform: none; /* Start the menu off-screen */
+        transform-origin: none;
+        transition: none;
+    }
     .menuItem:nth-child(1){
         z-index: 4; /* Set the z-index of the first menu item */
         height: 30%;
-        width: 40%;
+        width: 45vw;
     }
     .menuItem:nth-child(2){
         z-index: 3; /* Set the z-index of the second menu item */
         height: 45%;
-        width: 70%;
+        width: 70vw;
     }
     .menuItem:nth-child(3){
         z-index: 2; /* Set the z-index of the third menu item */
         height: 60%;
-        width: 100%;
+        width: 100vw;
     }
     /* .menuItem:nth-child(4){
         z-index: 1;

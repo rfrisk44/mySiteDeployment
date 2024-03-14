@@ -1,12 +1,14 @@
 import React from "react";
 import img1 from "./images/pexels-tyler-lastovich-699122.webp";
 import img2 from "./images/shahadat-rahman-voM1Z9cGPCU-unsplash.webp";
-import {Container} from 'react-bootstrap'
+import {Container} from 'react-bootstrap';
+import LazyLoad from 'react-lazy-load';
 
 const Service = () => {
   return (
     <Container className="text-center">
         <h1 className="text-decoration-underline">Services</h1>
+        <LazyLoad>
       <div className="services text-center d-flex">
         <div className="service-item">
           <img src={img1} alt="Coding" style={{borderRadius:'1.2rem'}}/>
@@ -28,6 +30,7 @@ const Service = () => {
           </div>
         </div>
       </div>
+      </LazyLoad>
     </Container>
   );
 };

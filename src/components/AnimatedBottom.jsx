@@ -13,7 +13,6 @@ const AnimatedBottom = () => {
       'Customized',
       'Responsive',
       'Dynamic',
-      'Seamless',
       'Engaging',
       'Unique',
       'Impactful'

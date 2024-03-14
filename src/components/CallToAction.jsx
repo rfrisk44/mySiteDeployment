@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState} from "react";
 import "../App.css";
 import { Container } from "react-bootstrap";
 import AppointmentForm from "./AppointmentForm";
@@ -20,7 +20,7 @@ const CallToAction = () => {
             <p style={{ fontSize: '150%' }} className="fw-light">Boost your business with a sleek online presence.</p>
             <p className="fw-light" style={{ fontSize: '150%' }}>Expand your reach, boost visibility, and seize growth with a tailored website - let's elevate your business!</p>
             <button
-              className="btn"
+              className="btn fw-bold"
               style={{ backgroundColor: "#00cc00", border: '3px solid white' }}
               onClick={toggleModal}>
               Get a <b>FREE</b> Quote Now
