@@ -2,7 +2,9 @@
 
 body{
     font-family: 'Merriweather';
+    overflow-x: hidden;
 }
+
 
 /* Landing CSS */
 #landing {
@@ -220,11 +222,7 @@ body{
         height: 60%;
         width: 100vw;
     }
-    /* .menuItem:nth-child(4){
-        z-index: 1;
-        height: 75%;
-        width: 100%;
-    } */
+
   }
 
 /* Benefits */
@@ -235,6 +233,7 @@ body{
     align-items: center;
     margin: 0 auto;
     margin-bottom: 2%;
+    overflow-x: hidden;
 }
 .benefit{
     margin: 5%;
@@ -242,6 +241,12 @@ body{
 .benefit p{
     padding-left: 15%;
     padding-right: 15%;
+}
+@media (max-width:500px) {
+    .benefit{
+        margin: 0;
+        padding: 5%;
+    }
 }
 
 /* Success jsx */

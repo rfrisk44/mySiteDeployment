@@ -9,13 +9,12 @@ import MyCarousel from './MyCarousel';
 import { useMediaQuery } from 'react-responsive';
 
 const Benefits = () => {
-  // Condition to determine whether to show the carousel on mobile
   const isMobile = useMediaQuery({ maxWidth: 500 });
 
   return (
     <div className='benefitsContainer text-center'>
       {isMobile ? (
-        <MyCarousel /> // Render carousel component on mobile
+        <MyCarousel />
       ) : (
         <>
           <div>
