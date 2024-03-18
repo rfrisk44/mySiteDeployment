@@ -2,7 +2,6 @@ import React from "react";
 import img1 from "./images/pexels-tyler-lastovich-699122.webp";
 import img2 from "./images/shahadat-rahman-voM1Z9cGPCU-unsplash.webp";
 import { Container } from "react-bootstrap";
-import LazyLoad from "react-lazy-load";
 
 const Service = () => {
   return (
