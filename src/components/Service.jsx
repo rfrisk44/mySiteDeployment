@@ -6,7 +6,7 @@ import { Container } from "react-bootstrap";
 const Service = () => {
   return (
     <Container className="text-center">
-      <h1 className="text-decoration-underline">Services</h1>
+      <h2 className="text-decoration-underline">Services</h2>
         <div className="services text-center d-flex">
           <div className="service-item">
             <img src={img1} alt="Coding" style={{ borderRadius: "1.2rem" }} />

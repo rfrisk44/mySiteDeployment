@@ -13,7 +13,9 @@ const Benefits = () => {
   const isMobile = useMediaQuery({ maxWidth: 500 });
 
   return (
-    <Container className='benefitsContainer text-center'>
+  <div className='text-center'>
+    <h2 className='text-decoration-underline'>Benefits</h2>
+    <Container className='benefitsContainer'>
       {isMobile ? (
         <MyCarousel />
       ) : (
@@ -57,6 +59,7 @@ const Benefits = () => {
           </>
       )}
     </Container>
+    </div>
   )
 }
 
