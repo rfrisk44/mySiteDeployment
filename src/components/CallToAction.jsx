@@ -12,7 +12,7 @@ const CallToAction = () => {
 
   return (
     <Container className="p-3 text-center" id="landing" fetchpriority="high" decoding="async">
-      <Container className="successText" style={{color:'black'}}>
+      <Container className="successText">
         {showModal ? (
           <div>
             <h1 style={{ fontSize: '400%' }}>Start Today</h1>
