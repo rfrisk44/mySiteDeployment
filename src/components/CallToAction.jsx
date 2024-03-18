@@ -1,8 +1,7 @@
-import React, { useState } from "react";
+import React, { useState} from "react";
 import "../App.css";
 import { Container } from "react-bootstrap";
 import AppointmentForm from "./AppointmentForm";
-import img1 from './images/compressedthisisengineering-raeng-sbFmoKBK7jU-unsplash.webp';
 
 const CallToAction = () => {
   const [showModal, setShowModal] = useState(true);
@@ -13,8 +12,7 @@ const CallToAction = () => {
 
   return (
     <Container className="p-3 text-center" id="landing" fetchpriority="high" decoding="async">
-      <img src={img1} alt="background" className="background-image" />
-      <Container className="successText">
+      <Container className="successText" style={{color:'black'}}>
         {showModal ? (
           <div>
             <h1 style={{ fontSize: '400%' }}>Start Today</h1>
