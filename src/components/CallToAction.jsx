@@ -11,7 +11,7 @@ const CallToAction = () => {
   };
 
   return (
-    <div className="p-3 text-center" id="landing">
+    <Container className="p-3 text-center" id="landing">
       <div className="overlay"></div> {/* Overlay div */}
       <Container className="successText">
         {showModal ? (
@@ -30,7 +30,7 @@ const CallToAction = () => {
           <AppointmentForm onClose={toggleModal} />)
         }
       </Container>
-    </div>
+    </Container>
   );
 };
 

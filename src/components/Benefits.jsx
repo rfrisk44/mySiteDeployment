@@ -7,12 +7,13 @@ import { FaGlobe } from "react-icons/fa";
 import { FaMagnifyingGlassDollar } from "react-icons/fa6";
 import MyCarousel from './MyCarousel';
 import { useMediaQuery } from 'react-responsive';
+import { Container } from 'react-bootstrap';
 
 const Benefits = () => {
   const isMobile = useMediaQuery({ maxWidth: 500 });
 
   return (
-    <div className='benefitsContainer text-center'>
+    <Container className='benefitsContainer text-center'>
       {isMobile ? (
         <MyCarousel />
       ) : (
@@ -55,7 +56,7 @@ const Benefits = () => {
           </div>
           </>
       )}
-    </div>
+    </Container>
   )
 }
 

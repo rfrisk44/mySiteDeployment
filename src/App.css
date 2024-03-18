@@ -15,17 +15,12 @@ body{
     background-repeat: no-repeat;
     color: white;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 90vh; /* Set height to occupy full viewport height */
-    width: 99.1vw;
     z-index: 0;
-}
-@media (max-width:500px) {
-    #landing{
-        width: 100vw;
-    }
+    border-radius: 2rem;
+    margin-top: 2%;
 }
 
 .overlay{
@@ -34,10 +29,21 @@ body{
     height: 100%;
     background-color: rgba(0, 0, 0, 0.4);
     z-index: 1;
+    border-radius: 2rem;
 }
 .successText{
     color: white;
     z-index: 2;
+}
+
+@media (max-width:500px) {
+    #landing{
+        border-radius: 0;
+        margin-top: 0;
+    }
+    .overlay{
+        border-radius: 0%;
+    }
 }
 
 /* Top Contact */
@@ -106,6 +112,7 @@ body{
   @media (max-width: 500px) {
     .service-item {
       flex-basis: 90%; /* Adjust width for smaller screens */
+      margin-top: 1%;
     }
   }
   
@@ -231,9 +238,9 @@ body{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    margin: 0 auto;
     margin-bottom: 2%;
     overflow-x: hidden;
+    border-radius: 1.2rem;
 }
 .benefit{
     margin: 5%;
