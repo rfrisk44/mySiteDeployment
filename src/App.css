@@ -19,22 +19,11 @@ body{
     background: linear-gradient(to top, #00cc00, #000000);
 }
 
-  @media (max-width:500px) {
-    .background-image{
-        padding: 2%;
-    }
-  }
-  .successText {
-    position: relative; /* Ensure text is positioned relative to the container */
-    margin-bottom: 5%;
-    z-index: 1; /* Ensure text appears above the image */
-  }
-  
-
 @media (max-width:500px) {
     #landing{
         border-radius: 0;
         margin-top: 0;
+        display: block;
     }
     .overlay{
         border-radius: 0%;
