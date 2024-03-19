@@ -16,8 +16,8 @@ body{
     height: 90vh;
     border-radius: 2rem;
     margin-top: 2%;
-    background: linear-gradient(to bottom, #00cc00, #000000);
-  }
+    background: linear-gradient(to top, #00cc00, #000000);
+}
 
   @media (max-width:500px) {
     .background-image{
@@ -204,11 +204,6 @@ body{
   }
 
   @media (max-width: 500px){
-    /* .menu{
-        transform: translate(-100%, -100%);
-        transform-origin: none;
-        transition: none;
-    } */
     .menuItem:nth-child(1){
         z-index: 4; /* Set the z-index of the first menu item */
         height: 30%;
