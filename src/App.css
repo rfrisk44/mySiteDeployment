@@ -204,11 +204,11 @@ body{
   }
 
   @media (max-width: 500px){
-    .menu{
-        transform: translate(-100%, -100%); /* Start the menu off-screen */
+    /* .menu{
+        transform: translate(-100%, -100%);
         transform-origin: none;
         transition: none;
-    }
+    } */
     .menuItem:nth-child(1){
         z-index: 4; /* Set the z-index of the first menu item */
         height: 30%;
