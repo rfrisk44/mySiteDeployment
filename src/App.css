@@ -229,6 +229,9 @@ body{
     padding-right: 15%;
 }
 @media (max-width:500px) {
+    .benefitsContainer{
+        display: block;
+    }
     .benefit{
         margin: 0;
         padding: 5%;
