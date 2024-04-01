@@ -15,7 +15,7 @@ const CallToAction = () => {
       <Container>
         {showModal ? (
           <div>
-            <h1 style={{ fontSize: '400%' }}>Start Today!!!!!!!!!!!!</h1>
+            <h1 style={{ fontSize: '400%' }}>Start Today</h1>
             <p style={{ fontSize: '150%' }} className="fw-light">Boost your business with a sleek online presence.</p>
             <p className="fw-light" style={{ fontSize: '150%' }}>Expand your reach, boost visibility, and seize growth with a tailored website - let's elevate your business!</p>
             <button
