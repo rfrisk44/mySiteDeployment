@@ -3,12 +3,15 @@ import 'react-awesome-slider/dist/styles.css'; // Import default styles
 import 'react-awesome-slider/dist/custom-animations/cube-animation.css';
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
-import nail1 from './images/nailsOne.PNG';
-import nail2 from './images/nailsTwo.PNG'
-import nail3 from './images/nailsThree.PNG';
-import land1 from './images/landscapingOne.PNG'
-import land2 from './images/landscapingTwo.PNG'
-import land3 from './images/landscapingThree.PNG'
+import nail1 from './images/nailsOne.webp';
+import nail2 from './images/nailsTwo.webp'
+import nail3 from './images/nailsThree.webp';
+import land1 from './images/landscapingOne.webp'
+import land2 from './images/landscapingTwo.webp'
+import land3 from './images/landscapingThree.webp'
+import lawn1 from './images/vox.webp'
+import lawn2 from './images/vox2.webp'
+import lawn3 from './images/vox3.webp'
 
 
 const ProjectCarousel = () => {
@@ -51,6 +54,13 @@ const ProjectCarousel = () => {
               {renderButton(land2)}
               {renderButton(land3)}
           </Carousel>
+        </div>
+        <div>
+            <Carousel className='projectContainer' interval={2000} autoPlay={true} showThumbs={false} showIndicators={false} showStatus={false} showArrows={true} swipeable={true} infiniteLoop={true}>
+                {renderButton(lawn1)}
+                {renderButton(lawn2)}
+                {renderButton(lawn3)}
+            </Carousel>
         </div>
       {/* Modal component */}
       {modalIsOpen && (
