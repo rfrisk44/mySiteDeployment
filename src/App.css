@@ -352,15 +352,23 @@ body{
 
 /* Project Carousel */
 .carouselContainer{
-    margin: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.projectContainer{
     margin-top: 0;
+    margin: 5%;
 }
-
-.awssld__next:before,
-.awssld__prev:before {
-  color: red; /* Change the color to your desired color */
+.projectContainer div{
+    border-radius: 2rem;
 }
-
+@media (max-width:1000px) {
+    .carouselContainer{
+        display: inline;
+        z-index: 0;
+    }
+}
 .view{
     position: absolute;
     top: 50%;

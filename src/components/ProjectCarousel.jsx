@@ -39,23 +39,20 @@ const ProjectCarousel = () => {
 
   return (
     <div className='carouselContainer'>
-      <AwesomeSlider  bullets={true} buttons={true} infinite={true} animation='cubeAnimation'>
         <div>
-          <Carousel className='projectContainer' interval={2000} autoPlay={true} showThumbs={false} showIndicators={false} showStatus={false} showArrows={false} swipeable={true} infiniteLoop={true}>
+          <Carousel className='projectContainer' interval={2000} autoPlay={true} showThumbs={false} showIndicators={false} showStatus={false} showArrows={true} swipeable={true} infiniteLoop={true}>
               {renderButton(nail1)}
               {renderButton(nail2)}
               {renderButton(nail3)}
           </Carousel>
         </div>
         <div>
-          <Carousel className='projectContainer' interval={2000} autoPlay={true} showThumbs={false} showIndicators={false} showStatus={false} showArrows={false} swipeable={true} infiniteLoop={true}>
+          <Carousel className='projectContainer' interval={2000} autoPlay={true} showThumbs={false} showIndicators={false} showStatus={false} showArrows={true} swipeable={true} infiniteLoop={true}>
               {renderButton(land1)}
               {renderButton(land2)}
               {renderButton(land3)}
           </Carousel>
         </div>
-      </AwesomeSlider>
-      
       {/* Modal component */}
       {modalIsOpen && (
         <div style={{ position: 'fixed', top: 0, left: 0, width: '100%', height: '100%', background: 'rgba(0, 0, 0, 0.5)', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
