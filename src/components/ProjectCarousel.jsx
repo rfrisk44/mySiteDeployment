@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import AwesomeSlider from 'react-awesome-slider';
 import 'react-awesome-slider/dist/styles.css'; // Import default styles
 import 'react-awesome-slider/dist/custom-animations/cube-animation.css';
 import { Carousel } from 'react-responsive-carousel';
