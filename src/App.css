@@ -23,7 +23,6 @@ body{
     #landing{
         border-radius: 0;
         margin-top: 0;
-        display: block;
     }
     .overlay{
         border-radius: 0%;
@@ -53,7 +52,6 @@ body{
 
 /* Appointment Form */
 .appointment{
-    margin-top: 15%;
     border: 3px solid white;
     padding: 2%;
     border-radius: 1rem;
@@ -380,4 +378,3 @@ body{
     padding: .5%;
     font-weight: bold;
 }
-
