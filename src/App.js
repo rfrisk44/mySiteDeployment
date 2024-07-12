@@ -9,7 +9,6 @@ import Contact from './components/Contact';
 import TopContact from './components/TopContact';
 import AnimatedBottom from './components/AnimatedBottom';
 import Projects from './components/Projects';
-import ProjectCarousel from './components/ProjectCarousel';
 
 
 function App() {
@@ -21,7 +20,7 @@ function App() {
         <Routes>
             <Route path='/' element={[<CallToAction/>, <Service/>,<Benefits/>]}/>
             <Route path='/contact' element={[<Contact/>]}/>
-            <Route path='/projects' element={[<Projects/>,<ProjectCarousel/>]}/>
+            <Route path='/projects' element={[<Projects/>]}/>
         </Routes>
     </div>
   );

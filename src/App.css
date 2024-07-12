@@ -378,3 +378,16 @@ body{
     padding: .5%;
     font-weight: bold;
 }
+/* Companies Worked With */
+.companies{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.companies div{
+    border: 1px solid #00cc00;
+    margin: 1%;
+    padding: 1%;
+    border-radius: .5rem;
+}
